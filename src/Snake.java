@@ -16,4 +16,10 @@ this.viciousness = vic;
 			public boolean getvenomous() {
 				return venomous;
 			}
+
+			public String toString() {
+				return ("Snake: venomous " + venomous + " viciousness " + viciousness);
+				
+			}
+
 }
