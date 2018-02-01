@@ -6,18 +6,20 @@ public class Fibonacci {
 		Fibonacci f = new Fibonacci();
 		f.fibo();
 	}
-	
+
 	public void fibo() {
 		String a = JOptionPane.showInputDialog("How many numbers do you want in the Fibonacci sequence?");
 		int n = Integer.parseInt(a);
 		int j = 0;
+		int k = 1;
 		System.out.println(j);
+		System.out.println(k);
 		for (int i = 0; i < n; i++) {
-			System.out.println(j+1);
-			j = j+1+j;
-		
-			System.out.println(j);
+			int x = j + k;
+			System.out.println(x);
+			j = k;
+			k = x;
 		}
 	}
-	
+
 }
