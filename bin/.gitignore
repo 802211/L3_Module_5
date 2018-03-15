@@ -1,4 +1,6 @@
 /Fibonacci.class
+/Palindromes.class
+/PalindromesTest.class
 /Plane.class
 /Randomness.class
 /Snake.class
@@ -6,6 +8,3 @@
 /data_structures/
 /other/
 /unit_tests/
-/LovelyPalindromes.class
-/PalindromesTest.class
-/Palindromes.class
